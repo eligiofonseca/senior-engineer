@@ -12,11 +12,10 @@
 
 <body>
   <header>
-    <h1>Welcome to My Website</h1>
+    <h1>Welcome to My Website - Eli</h1>
     <figure>
-      <a href='https://www.github.com' target='_blank'><img
-          src='./image1_banner_main.jpg'
-          width='60%' alt='NYC subway sign of Bryant Park Station' align='center'></a>
+      <a href='https://www.github.com' target='_blank'><img src='./image1_banner_main.jpg' width='30%'
+          alt='NYC subway sign of Bryant Park Station'></a>
       <figcaption>Source: Pexels.com</figcaption>
     </figure>
     <p>A simple example of semantic HTML.</p>
@@ -30,97 +29,107 @@
   </header>
 
   <main>
-    <article>
+    <section>
       <header>
-        <h2>Article Title</h2>
+        <h2>Cycling Article Title</h2>
         <p>Published on <time datetime="2023-01-01">January 1, 2023</time></p>
       </header>
-      <section>
-        <p>This is the content of the article.
-          <figure>
-            <a href='https://www.google.com' target='_blank'><img
-                src='./image2_article_image.jpg'
-                width='60%' alt='person cycling through colorful backwall' align='center'></a>
-            <figcaption>Source: Pexels.com</figcaption>
-          </figure>
-        </p>
+      <article>
+        <p>This is the content of the article.</p>
+        <figure>
+          <a href='https://www.google.com' target='_blank'><img src='./image2_article_image.jpg' width='25%'
+              alt='person cycling through colorful backwall'></a>
+          <figcaption>Source: Pexels.com</figcaption>
+        </figure>
         <ul>
           <li>bullet1</li>
           <li>bullet2</li>
           <li>bullet3</li>
           <li><a href='https://www.google.com' target="_blank">Please see more bulletd items here.</a></li>
         </ul>
-      </section>
-    </article>
+      </article>
+      <aside>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime velit soluta sint facilis. Quidem, soluta.
+          Illo corrupti accusamus voluptatem nulla ullam. Fugiat maiores eveniet tempora ad laborum repudiandae non
+          numquam.</p>
+      </aside>
+    </section>
 
-    <article>
+    <section>
       <header>
-        <h2>Another Article Title</h2>
+        <h2>Campfire Article Title</h2>
         <p>Published on <time datetime="2023-01-15">January 15, 2023</time></p>
       </header>
-      <section>
+      <article>
         <p>This is another article's content.
-          <figure>
-            <a href='https://www.apple.com' target='_blank'><img
-                src='./image3_article_image.jpg'
-                width='60%' alt='An open fire set against the great outdoors' align='center'></a>
-            <figcaption>Source: Pexels.com</figcaption>
-          </figure>
+        <figure>
+          <a href='https://www.apple.com' target='_blank'><img src='./image3_article_image.jpg' width='20%'
+              alt='An open fire set against the great outdoors' align='center'></a>
+          <figcaption>Source: Pexels.com</figcaption>
+        </figure>
         </p>
         <ol>
           <li>one</li>
           <li>two</li>
           <li>three</li>
         </ol>
-      </section>
-      <section>
-          <table>
-    <thead>
-    <tr>
-        <th scope="col">Company Name</th>
-        <th scope="col">Number of Items to Ship</th>
-        <th scope="col">Next Action</th>
-    </tr>
-    </thead>
-  <tbody>
-    <tr>
-      <td colspan="1">Adam’s Greenworks</td>
-      <td>14</td>
-      <td>Package Items</td>
-    </tr>
-    <tr>
-  <td rowspan="1">Davie's Burgers</td>
-  <td>2</td>
-  <td>Send Invoice</td>
-</tr>
-<tr>
-  <td>Baker's Bike Shop</td>
-  <td>3</td>
-  <td>Send Invoice</td>
-</tr>
-<tr>
-  <td>Miss Sally's Southern</td>
-  <td>4</td>
-  <td>Ship</td>
-</tr>
-<tr>
-  <td>Summit Resort Rentals</td>
-  <td>4</td>
-  <td>Ship</td>
-</tr>
-<tr>
-  <td>Strike Fitness</td>
-  <td>1</td>
-  <td>Enter Order</td>
-</tr>
-</tbody>
-  <table>
-    <tfoot>
-      <td>Total</td>
-      <td>28</td>
-    </tfoot>
-      </section>
-    </article>
+      </article>
+    </section>
+
+    <section>
+      <header>
+        <h2>Table Article Title</h2>
+        <p>Published on <time datetime="2023-01-25">January 25, 2023</time></p>
+      </header>
+      <article>
+        <table>
+          <thead>
+            <tr>
+              <th scope="col">Company Name</th>
+              <th scope="col">Number of Items to Ship</th>
+              <th scope="col">Next Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td colspan="1">Adam’s Greenworks</td>
+              <td>14</td>
+              <td>Package Items</td>
+            </tr>
+            <tr>
+              <td rowspan="1">Davie's Burgers</td>
+              <td>2</td>
+              <td>Send Invoice</td>
+            </tr>
+            <tr>
+              <td>Baker's Bike Shop</td>
+              <td>3</td>
+              <td>Send Invoice</td>
+            </tr>
+            <tr>
+              <td>Miss Sally's Southern</td>
+              <td>4</td>
+              <td>Ship</td>
+            </tr>
+            <tr>
+              <td>Summit Resort Rentals</td>
+              <td>4</td>
+              <td>Ship</td>
+            </tr>
+            <tr>
+              <td>Strike Fitness</td>
+              <td>1</td>
+              <td>Enter Order</td>
+            </tr>
+          </tbody>
+        </table>
+        <tfoot>
+          <td>Total</td>
+          <td>28</td>
+        </tfoot>
+      </article>
+    </section>
+
   </main>
 
   <footer>
@@ -128,5 +137,4 @@
   </footer>
 
 </body>
-
 </html>
