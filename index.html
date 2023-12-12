@@ -5,7 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Welcome to My Website - Eli</title>
-  <link rel='stylesheet' type='text/css' href='style.css'>
+  <link rel='stylesheet' type='text/css' href='./style.css'>
+  <script src='./main.js'></script>
   <!-- Link to the favicon -->
   <link rel="icon" href="./favicon.ico" type="image/x-icon">
 </head>
@@ -24,6 +25,7 @@
         <li><a href="#home">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#contact">Contact</a></li>
+        <li><a href="#form">Form1</a></li>
       </ul>
     </nav>
   </header>
@@ -82,7 +84,7 @@
         <p>Published on <time datetime="2023-01-25">January 25, 2023</time></p>
       </header>
       <article>
-        <table>
+        <table border='2'>
           <thead>
             <tr>
               <th scope="col">Company Name</th>
@@ -92,22 +94,22 @@
           </thead>
           <tbody>
             <tr>
-              <td colspan="1">Adam’s Greenworks</td>
+              <td colspan="1">Adam&apos;s Greenworks</td>
               <td>14</td>
               <td>Package Items</td>
             </tr>
             <tr>
-              <td rowspan="1">Davie's Burgers</td>
+              <td rowspan="1">Davie&apos;s Burgers</td>
               <td>2</td>
               <td>Send Invoice</td>
             </tr>
             <tr>
-              <td>Baker's Bike Shop</td>
+              <td>Baker&apos;s Bike Shop</td>
               <td>3</td>
               <td>Send Invoice</td>
             </tr>
             <tr>
-              <td>Miss Sally's Southern</td>
+              <td>Miss Sally&apos;s Southern</td>
               <td>4</td>
               <td>Ship</td>
             </tr>
@@ -122,11 +124,14 @@
               <td>Enter Order</td>
             </tr>
           </tbody>
+
+          <tfoot>
+            <td>Total</td>
+            <td>28</td>
+          </tfoot>
+
         </table>
-        <tfoot>
-          <td>Total</td>
-          <td>28</td>
-        </tfoot>
+
       </article>
     </section>
     <br>
@@ -135,7 +140,7 @@
       poster='https://peach.blender.org/wp-content/uploads/title_anouncement.jpg?x11217'>
       Video not supported
     </video>
-    
+
     <hr>
     <audio controls src='./Audio1_rebirth.wav' type='audio/wav'>
       Audio not supported
@@ -150,7 +155,7 @@
 
     <hr>
     <embed src="https://content.codecademy.com/courses/SemanticHTML/dog-on-beach.gif">
-    
+
   </main>
 
   <footer>
