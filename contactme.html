@@ -13,33 +13,72 @@
 
 <body>
     <header>
-        <h1>Contact Me - Eli</h1>
         <nav>
             <ul>
                 <li><a href="./index.html">Home</a></li>
                 <li><a href="./about.html" target='_blank'>About</a></li>
+                <li><a href="./media.html" target='_blank'>Media</a></li>
                 <li><a href="./contactme.html" target='_self'>Contact</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <section>
-            <article>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, possimus enim provident consequatur ea
-                    voluptas, alias officia, non sapiente ipsam tempora nostrum? Animi, iure error deleniti sunt beatae
-                    atque necessitatibus.
-                </p>
+        <section id='main_form_overlay'>
+            <h1><img id='logo' src='./favicon.ico' alt='invader icon' width='20px'>
+                Contact Me</h1>
+            <hr>
+            <!--Form will go here-->
+            <form action='./submission.html' method='post'>
+                <section class='name'>
+                    <label for='nameIs'>What is your name? *</label>
+                    <input type='text' name='nameIs' id='nameIs' required pattern='[a-zA-Z]{3,15}'>
+                </section>
                 <hr>
-                <form>
-                    <!--Form will go here-->
-                </form>
-            </article>
-
+                <section class='email'>
+                    <label for='emailIs'>What is your email? *</label>
+                    <input type='email' name='emailIs' id='emailIs' required
+                        pattern="/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/"
+                        placeholder="sophie@example.com">
+                </section>
+                <hr>
+                <label for="url">LinkedIn Profile URL</label>
+                <input type="url" name="url" id="url" placeholder="https://www.linkedin.com/in/your-name/"
+                    pattern="https://*" size='35'>
+                <hr>
+                <section class='phone'>
+                    <label for='phoneIs'>What is your phone number? </label>
+                    <input type='tel' name='phoneIs' id='phoneIs' pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                        placeholder='123-456-7890'>
+                </section>
+                <hr>
+                <section class="prefMethodContact">
+                    <label for="prefMethod">Best way to reach you?</label>
+                    <select id="prefMethod" name="prefMethod">
+                        <option value="noneSelect"></option>
+                        <option value="phone-Num">Phone</option>
+                        <option value="email-Me">Email</option>
+                        <option value="linkedIn-Me">LinkedIn</option>
+                    </select>
+                </section>
+                <hr>
+                <section class="contactDesc">
+                    <label for="whatAbout">Please provide a brief description *</label>
+                    <br>
+                    <textarea id="whatAbout" name="whatAbout" rows="10" cols="40" required minlength='3'
+                        maxlength='350' spellcheck='true' placeholder='In 350 chars or less please'></textarea>
+                </section>
+                <hr>
+                <section class='submissionButton'>
+                    <input type='submit' value='Send It'>
+                </section>
+            </form>
         </section>
-
     </main>
-
+    <hr>
+    <footer>
+        <p>&copy; 2023 My Website. All rights reserved.</p>
+    </footer>
 </body>
 
 </html>
