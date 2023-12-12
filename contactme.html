@@ -29,7 +29,7 @@
                 Contact Me</h1>
             <hr>
             <!--Form will go here-->
-            <form action='./submission.html' method='post'>
+            <form action='./submission.html' method='get'>
                 <section class='name'>
                     <label for='nameIs'>What is your name? *</label>
                     <input type='text' name='nameIs' id='nameIs' required pattern='[a-zA-Z]{3,15}'>
@@ -44,7 +44,7 @@
                 <hr>
                 <label for="url">LinkedIn Profile URL</label>
                 <input type="url" name="url" id="url" placeholder="https://www.linkedin.com/in/your-name/"
-                    pattern="https://*" size='35'>
+                    pattern="https://.*" size='35'>
                 <hr>
                 <section class='phone'>
                     <label for='phoneIs'>What is your phone number? </label>
