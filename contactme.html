@@ -29,21 +29,21 @@
                 Contact Me</h1>
             <hr>
             <!--Form will go here-->
-            <form action='./submission.html' method='get'>
-                <section class='name'>
-                    <label for='nameIs'>What is your name? *</label>
-                    <input type='text' name='nameIs' id='nameIs' required pattern='[a-zA-Z]{3,15}'>
+            <form action='https://script.google.com/macros/s/AKfycbyGAeNmDyekbI1qn1FgnnIT9-7Unvng_Pe7JxqlKRRVYXdr7iwmqm-Aey-RqJyc9-3FIQ/exec' method='POST'>
+                <section class='nameC'>
+                    <label for='Name'>What is your name? *</label>
+                    <input type='text' name='Name' id='Name' required pattern='[a-zA-Z]{3,15}'>
                 </section>
                 <hr>
-                <section class='email'>
-                    <label for='emailIs'>What is your email? *</label>
-                    <input type='email' name='emailIs' id='emailIs' required
+                <section class='emailC'>
+                    <label for='Email'>What is your email? *</label>
+                    <input type='email' name='Email' id='Email' required
                         pattern="/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/"
                         placeholder="sophie@example.com">
                 </section>
                 <hr>
-                <label for="url">LinkedIn Profile URL</label>
-                <input type="url" name="url" id="url" placeholder="https://www.linkedin.com/in/your-name/"
+                <label for="LinkedInUrl">LinkedIn Profile URL</label>
+                <input type="url" name="LinkedInUrl" id="LinkedInUrl" placeholder="https://www.linkedin.com/in/your-name/"
                     pattern="https://.*" size='35'>
                 <hr>
                 <section class='phone'>
@@ -56,13 +56,13 @@
                     <label for="prefMethod">Best way to reach you?</label>
                     <select id="prefMethod" name="prefMethod">
                         <option value="noneSelect"></option>
-                        <option value="phone-Num">Phone</option>
+                        <option value="call-Me">Phone</option>
                         <option value="email-Me">Email</option>
                         <option value="linkedIn-Me">LinkedIn</option>
                     </select>
                 </section>
                 <hr>
-                <section class="contactDesc">
+                <section class="contactDesc-c">
                     <label for="whatAbout">Please provide a brief description *</label>
                     <br>
                     <textarea id="whatAbout" name="whatAbout" rows="10" cols="40" required minlength='3'
