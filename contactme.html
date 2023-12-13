@@ -12,16 +12,7 @@
 </head>
 
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="./about.html" target='_blank'>About</a></li>
-                <li><a href="./media.html" target='_blank'>Media</a></li>
-                <li><a href="./contactme.html" target='_self'>Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+    <my-header></my-header>
 
     <main>
         <section id='main_form_overlay'>
@@ -29,7 +20,9 @@
                 Contact Me</h1>
             <hr>
             <!--Form goes here-->
-            <form action='https://script.google.com/macros/s/AKfycbyGAeNmDyekbI1qn1FgnnIT9-7Unvng_Pe7JxqlKRRVYXdr7iwmqm-Aey-RqJyc9-3FIQ/exec' method='POST' id='my-form1'>
+            <form
+                action='https://script.google.com/macros/s/AKfycbyGAeNmDyekbI1qn1FgnnIT9-7Unvng_Pe7JxqlKRRVYXdr7iwmqm-Aey-RqJyc9-3FIQ/exec'
+                method='POST' id='my-form1'>
                 <section class='nameC'>
                     <label for='Name'>What is your name? *</label>
                     <input type='text' name='Name' id='Name' required pattern="[a-zA-Z]{3,15}+[a-zA-Z]{3,15}">
@@ -76,9 +69,7 @@
         </section>
     </main>
     <hr>
-    <footer>
-        <p>&copy; 2023 My Website. All rights reserved.</p>
-    </footer>
+    <my-footer></my-footer>
 </body>
 
 </html>
