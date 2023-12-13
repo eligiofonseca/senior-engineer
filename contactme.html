@@ -29,10 +29,12 @@
                 Contact Me</h1>
             <hr>
             <!--Form will go here-->
-            <form action='https://script.google.com/macros/s/AKfycbyGAeNmDyekbI1qn1FgnnIT9-7Unvng_Pe7JxqlKRRVYXdr7iwmqm-Aey-RqJyc9-3FIQ/exec' method='POST'>
+            <form
+                action='https://script.google.com/macros/s/AKfycbyGAeNmDyekbI1qn1FgnnIT9-7Unvng_Pe7JxqlKRRVYXdr7iwmqm-Aey-RqJyc9-3FIQ/exec'
+                method='post' id='my-form'>
                 <section class='nameC'>
                     <label for='Name'>What is your name? *</label>
-                    <input type='text' name='Name' id='Name' required pattern='[a-zA-Z]{3,15}'>
+                    <input type='text' name='Name' id='Name' required pattern="[a-zA-Z]{3,15}+[a-zA-Z]{3,15}">
                 </section>
                 <hr>
                 <section class='emailC'>
@@ -43,8 +45,8 @@
                 </section>
                 <hr>
                 <label for="LinkedInUrl">LinkedIn Profile URL</label>
-                <input type="url" name="LinkedInUrl" id="LinkedInUrl" placeholder="https://www.linkedin.com/in/your-name/"
-                    pattern="https://.*" size='35'>
+                <input type="url" name="LinkedInUrl" id="LinkedInUrl"
+                    placeholder="https://www.linkedin.com/in/your-name/" pattern="https://.*" size='35'>
                 <hr>
                 <section class='phone'>
                     <label for='phoneIs'>What is your phone number? </label>
@@ -65,12 +67,12 @@
                 <section class="contactDesc-c">
                     <label for="whatAbout">Please provide a brief description *</label>
                     <br>
-                    <textarea id="whatAbout" name="whatAbout" rows="10" cols="40" required minlength='3'
-                        maxlength='350' spellcheck='true' placeholder='In 350 chars or less please'></textarea>
+                    <textarea id="whatAbout" name="whatAbout" rows="10" cols="40" required minlength='3' maxlength='350'
+                        spellcheck='true' placeholder='In 350 chars or less please'></textarea>
                 </section>
                 <hr>
                 <section class='submissionButton'>
-                    <input type='submit' value='Send It'>
+                    <input type='submit'>
                 </section>
             </form>
         </section>
