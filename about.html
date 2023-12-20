@@ -6,25 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Me - Eli</title>
     <link rel='stylesheet' type='text/css' media='screen' href='./style.css'>
-    <script src='./main.js'></script>
     <!-- Link to the favicon -->
     <link rel="icon" href="./favicon.ico" type="image/x-icon">
 </head>
 
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="./about.html" target='_self'>About</a></li>
-                <li><a href="./media.html" target='_blank'>Media</a></li>
-                <li><a href="./contactme.html" target='_blank'>Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+    <my-header></my-header>
 
     <main>
-        <section id='main_about_overlay'>
+        <section class='main_overlay'>
             <h1><img id='logo' src='./favicon.ico' alt='invader icon' width='20px'>
                 About Me</h1>
             <hr>
@@ -44,14 +34,12 @@
                     unde quae iure placeat aperiam doloremque non neque eum voluptate ea sed impedit nihil inventore
                     delectus.
                 </p>
-
+            </article>
         </section>
-
     </main>
-
+    <hr>
+    <my-footer></my-footer>
+    <script src='./main.js' async></script>
 </body>
-<footer>
-    <p>&copy; 2023 My Website. All rights reserved.</p>
-</footer>
 
 </html>

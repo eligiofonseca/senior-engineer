@@ -5,9 +5,13 @@
   box-sizing: border-box;
 }
 
+:root {
+  --background-color: #f06d06;
+}
 
 body {
-  font-family: system-ui;
-  background: #f06d06;
+  font-family: 'system-ui', fallback-font, sans-serif;
+  background: var(--background-color);
   color: white;
+  font-size: 1rem;
 }
