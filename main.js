@@ -33,7 +33,7 @@ class MyFooter extends HTMLElement {
           </a>
 
           <a href='https://www.codecademy.com/profiles/eligiofonseca' target='_blank'>
-          <img src='../icons/footer/iconmonstr-learning-3.svg'>
+          <img src='./icons/footer/iconmonstr-learning-3.svg'>
           </a>
         </figure>
             &copy; 2023 All Rights Reserved.
