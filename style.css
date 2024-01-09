@@ -139,9 +139,10 @@ time {
 
 #eliHeadshot {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 35%;
+  /* margin-left: auto;
+  margin-right: auto; */
+  float: left;
+  margin: 18px 8px;
 }
 
 #eliBio,
@@ -154,12 +155,12 @@ time {
 
 .introImageL {
   float: left;
-  margin: 2px 8px;
+  margin: 12px 4px 2px;
 }
 
 .introImageR {
   float: right;
-  margin: 10px 8px;
+  margin: 12px 4px 2px;
 }
 
 figcaption {
@@ -182,20 +183,20 @@ embed {
   background: #33312e;
   padding: 5px;
   display: block;
-  margin: auto;
+  float: right;
+  margin: 18px 8px;
 }
 
 form {
   font-family: 'RobotoRegular';
-  /* border: 5px solid rgb(13, 231, 72);
+  /* border: 5px solid rgb(13, 231, 72); */
   border-radius: 25px;
-  background: #5a4629;
-  padding: 10px; */
+  background: #f7ce9167;
+  padding: 10px;
 }
 
-@media (orientation: portrait)  {
-  section figure img
-  {
+@media (orientation: portrait) {
+  section figure img {
     width: 90%;
     height: 90%;
   }
