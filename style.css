@@ -176,6 +176,7 @@ video,
 audio,
 iframe,
 embed {
+  font-family: 'RobotoRegular';
   /* border: 5px solid brown; */
   border-radius: 25px;
   background: #33312e;
@@ -184,12 +185,13 @@ embed {
   margin: auto;
 }
 
-/* form {
-  border: 5px solid rgb(13, 231, 72);
+form {
+  font-family: 'RobotoRegular';
+  /* border: 5px solid rgb(13, 231, 72);
   border-radius: 25px;
   background: #5a4629;
-  padding: 10px;
-} */
+  padding: 10px; */
+}
 
 @media (orientation: portrait)  {
   section figure img
