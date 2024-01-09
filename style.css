@@ -1,17 +1,201 @@
 * {
   /* padding: 0;
   border: 0;
-  margin: 0; */
+  margin: 0; 
+  */
   box-sizing: border-box;
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: 'RobotoRegular';
+  src: url('./fonts/Roboto-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'RobotoBold';
+  src: url('./fonts/Roboto-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'RobotoLight';
+  src: url('./fonts/Roboto-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'RobotoLightItalic';
+  src: url('./fonts/Roboto-LightItalic.ttf') format('truetype');
 }
 
 :root {
-  --background-color: #f06d06;
+  --background-color: #e7a06a;
+  font-family: 'system-ui', fallback-font, 'sans-serif';
+  background: var(--background-color);
+}
+
+nav ul {
+  font-family: 'RobotoLight';
+  font-size: 18px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  z-index: 100;
+  background-color: #000000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  /* border: 5px solid green; */
+}
+
+nav li {
+  float: left;
+  border-right: 1px solid #bbb;
+}
+
+nav li:last-child {
+  border-right: none;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+nav li a:hover {
+  background-color: #da7222;
+}
+
+header {
+  /* border: 5px solid white; */
+}
+
+footer {
+  font-family: 'RobotoLightItalic';
+  font-size: 14px;
+  text-align: center;
+  padding-bottom: 5px;
+  /* border: 5px solid purple; */
+}
+
+.footerIcons a {
+  margin: 2px;
+  padding: 2px;
 }
 
 body {
-  font-family: 'system-ui', fallback-font, sans-serif;
-  background: var(--background-color);
+  font-size: 16px;
   color: white;
-  font-size: 1rem;
+  position: relative;
+  top: 45px;
+}
+
+main {
+  /* border: 15px solid red; */
+  border-radius: 25px;
+  background: #de8909;
+  padding: 10px;
+}
+
+section {
+  /* border: 10px solid blue; */
+  border-radius: 25px;
+  background: #dfa247;
+  padding: 10px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'RobotoBold';
+  font-weight: 900;
+  padding: 0px;
+  margin: 0px;
+  /* border: 5px solid rgb(199, 196, 35); */
+}
+
+p {
+  font-family: 'RobotoRegular';
+  padding: 3px;
+  /* border: 5px solid dodgerblue; */
+}
+
+article p::first-letter,
+.introP::first-letter {
+  color: #ff0000;
+  font-size: 2.1em;
+}
+
+time {
+  font-family: 'RobotoLightItalic';
+  /* border: 5px solid black; */
+}
+
+#eliHeadshot {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35%;
+}
+
+#eliBio,
+.introP {
+  line-height: 1.5;
+  word-spacing: 1.5px;
+  letter-spacing: 1.1px;
+  margin: 2px 8px;
+}
+
+.introImageL {
+  float: left;
+  margin: 2px 8px;
+}
+
+.introImageR {
+  float: right;
+  margin: 10px 8px;
+}
+
+figcaption {
+  font-family: 'RobotoLightItalic';
+  /* border: 5px solid silver; */
+}
+
+table {
+  font-family: 'RobotoLight';
+  /* border: 5px solid rgb(61, 51, 202); */
+}
+
+video,
+audio,
+iframe,
+embed {
+  /* border: 5px solid brown; */
+  border-radius: 25px;
+  background: #33312e;
+  padding: 5px;
+  display: block;
+  margin: auto;
+}
+
+/* form {
+  border: 5px solid rgb(13, 231, 72);
+  border-radius: 25px;
+  background: #5a4629;
+  padding: 10px;
+} */
+
+@media (orientation: portrait)  {
+  section figure img
+  {
+    width: 90%;
+    height: 90%;
+  }
+
 }

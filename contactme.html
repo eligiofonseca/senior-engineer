@@ -13,8 +13,8 @@
 <body>
     <my-header></my-header>
 
-    <main>
-        <section class='main_overlay'>
+    <main class='main_overlay'>
+        <section>
             <h1><img id='logo' src='./favicon.ico' alt='invader icon' width='20px'>
                 Contact Me</h1>
             <hr>
@@ -34,9 +34,12 @@
                         placeholder="sophie@example.com">
                 </section>
                 <hr>
-                <label for="LinkedInUrl">LinkedIn Profile URL</label>
-                <input type="url" name="LinkedInUrl" id="LinkedInUrl"
-                    placeholder="https://www.linkedin.com/in/your-name/" pattern="https://www.linkedin.com/in/.*" size='35'>
+                <section class='linkedInURL'>
+                    <label for="LinkedInUrl">LinkedIn Profile URL</label>
+                    <input type="url" name="LinkedInUrl" id="LinkedInUrl"
+                        placeholder="https://www.linkedin.com/in/your-name/" pattern="https://www.linkedin.com/in/.*"
+                        size='35'>
+                </section>
                 <hr>
                 <section class='phone'>
                     <label for='phoneIs'>What is your phone number? </label>
@@ -61,13 +64,14 @@
                         spellcheck='true' placeholder='In 350 chars or less please'></textarea>
                 </section>
                 <hr>
-                <section class='submissionButton'>
+                <!-- <section class='submissionButton'>
                     <input type='submit' value='Submit'>
-                </section>
+                </section> -->
+                <button class='submissionButton' type='submit' value='Submit'>Submit</button>
+                <button class='resetButton' type='reset' value='Reset'>Reset</button>
             </form>
         </section>
     </main>
-    <hr>
     <my-footer></my-footer>
     <script src='./main.js' async></script>
 </body>
