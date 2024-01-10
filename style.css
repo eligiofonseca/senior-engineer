@@ -5,7 +5,7 @@
   */
   box-sizing: border-box;
   text-decoration: none;
-  
+
 }
 
 @font-face {
@@ -36,6 +36,10 @@
 
 html {
   scroll-behavior: smooth;
+}
+
+#logo {
+  max-width: 20px;
 }
 
 nav ul {
@@ -95,7 +99,7 @@ body {
   font-size: 16px;
   color: white;
   position: relative;
-  top: 45px;  
+  top: 45px;
 }
 
 main {
@@ -149,29 +153,51 @@ time {
 }
 
 #eliHeadshot {
-  display: block;
+  margin: 0 auto;
+}
+
+#eliHeadshot img {
   /* margin-left: auto;
   margin-right: auto; */
   float: left;
-  margin: 18px 8px;
+  padding: 10px;
+  margin: 14px;
+  height: 300px;
+  min-height: 300px;
+  max-width: 300px;
 }
 
 #eliBio,
 .introP {
-  line-height: 1.5;
-  word-spacing: 1.5px;
+  line-height: 1.3;
+  word-spacing: 1.3px;
   letter-spacing: 1.1px;
   margin: 2px 8px;
 }
 
 .introImageL {
-  float: left;
-  margin: 12px 4px 2px;
+  margin: 0 auto;
 }
 
 .introImageR {
+  margin: 0 auto;
+}
+
+.introImageL img {
+  float: left;
+  margin: 14px;
+  height: 300px;
+  min-height: 300px;
+  max-width: 550px;
+  border: 5px solid silver;
+}
+
+.introImageR img {
   float: right;
-  margin: 12px 4px 2px;
+  margin: 14px;
+  height: 300px;
+  min-height: 300px;
+  max-width: 250px;
 }
 
 figcaption {
@@ -184,18 +210,17 @@ table {
   /* border: 5px solid rgb(61, 51, 202); */
 }
 
-video,
-audio,
-iframe,
-embed {
+video {
   font-family: 'RobotoRegular';
   /* border: 5px solid brown; */
   border-radius: 25px;
   background: #33312e;
-  padding: 5px;
   display: block;
   float: right;
-  margin: 18px 8px;
+  padding: 10px;
+  margin: 14px;
+  height: 250px;
+  width: 450px;
 }
 
 form {
@@ -204,14 +229,14 @@ form {
   border-radius: 25px;
   background: #f7ce9167;
   padding: 10px;
-
 }
 
 .form-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 60vh; /* vh stands for viewport height */
+  min-height: 60vh;
+  /* vh stands for viewport height */
 }
 
 .form-container-buttons {
@@ -221,7 +246,8 @@ form {
 }
 
 form {
-  width: 35%; /* adjust this value to control the form's width */
+  width: 35%;
+  /* adjust this value to control the form's width */
 }
 
 button {
