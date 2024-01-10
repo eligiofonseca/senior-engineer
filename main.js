@@ -38,9 +38,11 @@ class MyFooter extends HTMLElement {
           <img src='./icons/footer/iconmonstr-learning-3.svg'>
           </a>
         </figure>
-            &copy; 2023 All Rights Reserved.
+            &copy; <span id="copyright-year">2023</span>. All Rights Reserved.
+            
         </footer>
         `
     }
 }
 customElements.define('my-footer', MyFooter)
+document.querySelector('#copyright-year').innerText = new Date().getFullYear();

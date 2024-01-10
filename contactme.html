@@ -4,7 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Me - Eli</title>
+    <meta name="description" content="Eligio Fonseca, Senior QA Engineer Resume and Portfolio">
+    <meta name="author" content="Eligio Fonseca">
+    <meta name="keywords" content="QA, Quality Assurance, Automation, Engineer, Software Development">
+    <!-- <base href="https://eligiofonseca.github.io/senior-engineer/" target="_blank"> -->
+    <title>Contact Me, Senior QA Engineer - Software Development - Eligio </title>
     <link rel='stylesheet' type='text/css' media='screen' href='./style.css'>
     <!-- Link to the favicon -->
     <link rel="icon" href="./favicon.ico" type="image/x-icon">
@@ -29,58 +33,59 @@
                 </p>
             </article>
             <hr>
-            <!--Form goes here-->
-            <form
-                action='https://script.google.com/macros/s/AKfycbyGAeNmDyekbI1qn1FgnnIT9-7Unvng_Pe7JxqlKRRVYXdr7iwmqm-Aey-RqJyc9-3FIQ/exec'
-                method='POST' id='my-form1'>
-                <section class='nameC'>
-                    <label for='Name'>What is your name? *</label>
-                    <input type='text' name='Name' id='Name' required pattern="[a-zA-Z]{3,15}+[a-zA-Z]{3,15}">
-                </section>
-                <hr>
-                <section class='emailC'>
-                    <label for='Email'>What is your email? *</label>
-                    <input type='email' name='Email' id='Email' required
-                        pattern="/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/"
-                        placeholder="sophie@example.com">
-                </section>
-                <hr>
-                <section class='linkedInURL'>
-                    <label for="LinkedInUrl">LinkedIn Profile URL</label>
-                    <input type="url" name="LinkedInUrl" id="LinkedInUrl"
-                        placeholder="https://www.linkedin.com/in/your-name/" pattern="https://www.linkedin.com/in/.*"
-                        size='31'>
-                </section>
-                <hr>
-                <section class='phone'>
-                    <label for='phoneIs'>What is your phone number? </label>
-                    <input type='tel' name='phoneIs' id='phoneIs' pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
-                        placeholder='123-456-7890'>
-                </section>
-                <hr>
-                <section class="prefMethodContact">
-                    <label for="prefMethod">Best way to reach you?</label>
-                    <select id="prefMethod" name="prefMethod">
-                        <option value="noneSelect"></option>
-                        <option value="call-Me">Phone</option>
-                        <option value="email-Me">Email</option>
-                        <option value="linkedIn-Me">LinkedIn</option>
-                    </select>
-                </section>
-                <hr>
-                <section class="contactDesc-c">
-                    <label for="whatAbout">Please provide a brief description *</label>
-                    <br>
-                    <textarea id="whatAbout" name="whatAbout" rows="10" cols="30" required minlength='3' maxlength='350'
-                        spellcheck='true' placeholder='In 350 chars or less please'></textarea>
-                </section>
-                <hr>
-                <!-- <section class='submissionButton'>
-                    <input type='submit' value='Submit'>
-                </section> -->
-                <button class='submissionButton' type='submit' value='Submit'>Submit</button>
-                <button class='resetButton' type='reset' value='Reset'>Reset</button>
-            </form>
+            <div class='form-container'>
+                <!--Form goes here-->
+                <form
+                    action='https://script.google.com/macros/s/AKfycbyGAeNmDyekbI1qn1FgnnIT9-7Unvng_Pe7JxqlKRRVYXdr7iwmqm-Aey-RqJyc9-3FIQ/exec'
+                    method='POST' id='my-form1'>
+                    <section class='nameC'>
+                        <label for='Name'>What is your name? *</label>
+                        <input type='text' name='Name' id='Name' required pattern="[a-zA-Z]{3,15}+[a-zA-Z]{3,15}">
+                    </section>
+                    <hr>
+                    <section class='emailC'>
+                        <label for='Email'>What is your email? *</label>
+                        <input type='email' name='Email' id='Email' required
+                            pattern="/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/"
+                            placeholder="sophie@example.com">
+                    </section>
+                    <hr>
+                    <section class='linkedInURL'>
+                        <label for="LinkedInUrl">LinkedIn Profile URL</label>
+                        <input type="url" name="LinkedInUrl" id="LinkedInUrl"
+                            placeholder="https://www.linkedin.com/in/your-name/"
+                            pattern="https://www.linkedin.com/in/.*" size='31'>
+                    </section>
+                    <hr>
+                    <section class='phone'>
+                        <label for='phoneIs'>What is your phone number? </label>
+                        <input type='tel' name='phoneIs' id='phoneIs' pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                            placeholder='123-456-7890'>
+                    </section>
+                    <hr>
+                    <section class="prefMethodContact">
+                        <label for="prefMethod">Best way to reach you?</label>
+                        <select id="prefMethod" name="prefMethod">
+                            <option value="noneSelect"></option>
+                            <option value="call-Me">Phone</option>
+                            <option value="email-Me">Email</option>
+                            <option value="linkedIn-Me">LinkedIn</option>
+                        </select>
+                    </section>
+                    <hr>
+                    <section class="contactDesc-c">
+                        <label for="whatAbout">Please provide a brief description *</label>
+                        <br>
+                        <textarea id="whatAbout" name="whatAbout" rows="10" cols="30" required minlength='3'
+                            maxlength='350' spellcheck='true' placeholder='In 350 chars or less please'></textarea>
+                    </section>
+                    <hr>
+                    <div class='form-container-buttons'>
+                        <button class='submissionButton' type='submit' value='Submit'>Submit</button>
+                        <button class='resetButton' type='reset' value='Reset'>Reset</button>
+                    </div>
+                </form>
+            </div>
         </section>
     </main>
     <my-footer></my-footer>
