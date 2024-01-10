@@ -189,7 +189,7 @@ time {
   height: 300px;
   min-height: 300px;
   max-width: 550px;
-  border: 5px solid silver;
+  /* border: 5px solid silver; */
 }
 
 .introImageR img {
