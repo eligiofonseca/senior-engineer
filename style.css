@@ -239,7 +239,8 @@ form {
   /* vh stands for viewport height */
 }
 
-.form-container-buttons {
+.form-container-buttons,
+.resume-download-button {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -262,6 +263,10 @@ button {
 
 .resetButton {
   background-color: #5e6864;
+}
+
+#resume_dl_button {
+  background-color: dodgerblue;
 }
 
 @media (orientation: portrait) {
