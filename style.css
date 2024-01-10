@@ -256,6 +256,14 @@ button {
   margin: 5px;
 }
 
+button a {
+  color: white;
+}
+
+button:hover {
+  cursor: grab;
+}
+
 .resetButton {
   background-color: #5e6864;
 }
@@ -263,6 +271,11 @@ button {
 #resume_dl_button {
   background-color: dodgerblue;
 }
+
+#resume_dl_button:hover {
+  background-color: rgb(14, 93, 171);
+}
+
 
 @media (orientation: portrait) {
   section figure img {
