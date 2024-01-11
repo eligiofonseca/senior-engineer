@@ -37,9 +37,17 @@ class MyFooter extends HTMLElement {
           <a href='https://www.codecademy.com/profiles/eligiofonseca' target='_blank'>
           <img src='./icons/footer/iconmonstr-learning-3.svg'>
           </a>
+
+          <a href='https://codepen.io/eligiofonsecajr' target='_blank'>
+          <img src='./icons/footer/iconmonstr-codepen-1.svg'>
+          </a>
+
+          <a href='https://www.coursera.org/learner/eligio-fonseca' target='_blank'>
+          <img src='./icons/footer/iconmonstr-coursera-1.svg'>
+          </a>
+          
         </figure>
             &copy; <span id="copyright-year">2023</span>. All Rights Reserved.
-            
         </footer>
         `
     }
