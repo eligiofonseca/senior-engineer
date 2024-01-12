@@ -265,11 +265,17 @@ button:hover {
 #resume_dl_button {
   background-color: dodgerblue;
 }
+#linkedin_share_button {
+  background-color: #0077b5;
+}
 
 #resume_dl_button:hover {
   background-color: rgb(14, 93, 171);
 }
 
+#linkedin_share_button:hover {
+  background-color: #034366;
+}
 
 @media (orientation: portrait) {
   figure {
