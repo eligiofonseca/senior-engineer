@@ -78,10 +78,6 @@ nav li a:hover {
   background-color: #da7222;
 }
 
-header {
-  /* border: 5px solid white; */
-}
-
 footer {
   font-family: 'RobotoLightItalic';
   font-size: 14px;
@@ -295,8 +291,11 @@ button:hover {
     width: 100%;
   }
 
+}
+
+@media (orientation: portrait) and (max-width: 460px) {
   nav ul {
     display: flex;
+    font-size: 14px;
   }
-
 }
