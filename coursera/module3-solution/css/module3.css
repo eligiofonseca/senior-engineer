@@ -1,15 +1,31 @@
 * {
     box-sizing: border-box;
-    text-decoration: none;
     scroll-behavior: smooth;
+}
+
+#header-nav {
+    background-color: dodgerblue;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar-header  {
+    padding: 5px;
+}
+
+ul li {
+    border-bottom: 1px solid black;
+    text-align: center;
 }
 
 h1 {
     color: black;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
-    font-size: 1.50em;
-    margin-left: 10px;
+    font-size: 1.6em;
+    text-transform: uppercase;
 }
 
 h2,
