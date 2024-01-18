@@ -1,0 +1,43 @@
+
+
+h1 {
+    color: black;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.50em;
+    margin-left: 10px;
+}
+
+h2,
+h3 {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1.40em;
+    text-align: center;
+    margin: 10px;
+}
+
+h3 {
+    font-size: 1.25em;
+}
+
+section {
+    background-color: bisque;
+}
+
+p {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 1px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row {
+    margin: 15px 0px 15px;
+}
