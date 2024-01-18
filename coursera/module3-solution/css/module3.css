@@ -29,7 +29,6 @@ h1 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 1.6em;
-    text-transform: uppercase;
 }
 
 h2,
@@ -47,7 +46,7 @@ h3 {
 
 section {
     background-color: bisque;
-    margin: 15px 0px 10px;
+    margin: 15px 0px 15px;
     border: 1px solid black;
 }
 
@@ -63,7 +62,8 @@ p {
 }
 
 .row {
-    margin: 15px 0px 5px;
+    margin: 15px 5px 5px;
+    padding: 5px;
 }
 
 #bttb {
