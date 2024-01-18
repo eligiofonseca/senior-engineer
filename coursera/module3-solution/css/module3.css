@@ -20,6 +20,10 @@ ul li {
     text-align: center;
 }
 
+ul li h6 {
+    color: white;
+}
+
 h1 {
     color: black;
     font-family: 'Montserrat', sans-serif;
