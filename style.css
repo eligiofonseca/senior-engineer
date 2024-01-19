@@ -59,9 +59,9 @@ nav li {
   border-right: 1px solid #bbb;
 }
 
-nav li:last-child {
+/* nav li:last-child {
   border-right: none;
-}
+} */
 
 nav li a {
   display: block;
@@ -156,8 +156,8 @@ time {
   float: left;
   padding: 10px;
   margin: 4px;
-  height: 280px;
-  min-height: 280px;
+  height: 200px;
+  min-height: 250px;
   max-width: 300px;
 }
 
