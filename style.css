@@ -75,6 +75,7 @@ nav li a:hover {
 }
 
 footer {
+  color: rgb(69, 68, 68);
   font-family: 'RobotoLightItalic';
   font-size: 14px;
   text-align: center;
@@ -88,7 +89,7 @@ footer {
 }
 
 body {
-  color: whitesmoke;
+  color: rgb(69, 56, 56);
   font-size: 16px;
   position: relative;
   top: 45px;
@@ -186,6 +187,17 @@ time {
   max-width: 250px;
 }
 
+#portfolioImg img {
+  float: center;
+  display: block;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 900px;
+  max-height: 800px;
+  min-width: 350px;
+}
+
 img {
   border-radius: 25px;
 }
@@ -240,7 +252,9 @@ form {
   /* adjust this value to control the form's width */
 }
 
-input, select, textarea {
+input,
+select,
+textarea {
   border-radius: 5px;
 }
 
@@ -265,6 +279,7 @@ button:hover {
 #resume_dl_button {
   background-color: dodgerblue;
 }
+
 #linkedin_share_button {
   background-color: #0077b5;
 }
@@ -275,6 +290,34 @@ button:hover {
 
 #linkedin_share_button:hover {
   background-color: #034366;
+}
+
+#bttb {
+  font-family: 'Montserrat', sans-serif;
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Fixed/sticky position */
+  bottom: 20px;
+  /* Place the button at the bottom of the page */
+  right: 30px;
+  /* Place the button 30px from the right */
+  z-index: 99;
+  /* Make sure it does not overlap */
+  border: none;
+  /* Remove borders */
+  outline: none;
+  /* Remove outline */
+  color: white;
+  /* Text color */
+  cursor: pointer;
+  /* Add a mouse pointer on hover */
+  padding: 10px;
+  /* Some padding */
+  border-radius: 10px;
+  /* Rounded corners */
+  font-size: 18px;
+  /* Increase font size */
 }
 
 @media (orientation: portrait) {
@@ -300,6 +343,6 @@ button:hover {
 @media (orientation: portrait) and (max-width: 465px) {
   nav ul {
     display: flex;
-    font-size: 13px;
+    font-size: 14px;
   }
 }
