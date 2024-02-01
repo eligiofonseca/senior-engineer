@@ -75,7 +75,7 @@ nav li a:hover {
 }
 
 footer {
-  color: rgb(69, 68, 68);
+  color: rgb(39, 36, 36);
   font-family: 'RobotoLightItalic';
   font-size: 14px;
   text-align: center;
@@ -319,6 +319,26 @@ button:hover {
   font-size: 18px;
   /* Increase font size */
 }
+
+p a:link {
+  color: #e60000;
+  }
+  
+  p a:visited {
+  color: rgb(255, 159, 23);
+  }
+  
+  p a:hover {
+  color: rgb(255, 213, 47);
+  }
+  
+  p a:focus {
+  color: rgb(255, 213, 47);
+  }
+  
+  p a:active {
+  color: rgb(0, 158, 163);
+  }
 
 @media (orientation: portrait) {
   figure {
