@@ -83,6 +83,10 @@ footer {
   /* border: 5px solid purple; */
 }
 
+footer a {
+  text-decoration: none;
+}
+
 .footerIcons img {
   margin: 2px;
   padding: -11px;
@@ -205,6 +209,11 @@ time {
 
 img {
   border-radius: 25px;
+}
+
+.centeredImage {
+  max-height: 90%;
+  max-width: 90%;
 }
 
 figcaption {
