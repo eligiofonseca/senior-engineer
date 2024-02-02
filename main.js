@@ -22,9 +22,6 @@ class MyFooter extends HTMLElement {
         this.innerHTML = `
         <footer>
         <figure class='footerIcons'>
-          <a href='./index.html' target='_self'>
-          <img src='./icons/footer/iconmonstr-home-6.svg'>
-          </a>
 
           <a href='https://www.linkedin.com/in/eligio-fonseca/' target='_blank'>
           <img src='./icons/footer/iconmonstr-linkedin-3.svg'>
@@ -38,12 +35,12 @@ class MyFooter extends HTMLElement {
           <img src='./icons/footer/iconmonstr-learning-3.svg'>
           </a>
 
-          <a href='https://codepen.io/eligiofonsecajr' target='_blank'>
-          <img src='./icons/footer/iconmonstr-codepen-1.svg'>
-          </a>
-
           <a href='https://www.coursera.org/learner/eligio-fonseca' target='_blank'>
           <img src='./icons/footer/iconmonstr-coursera-1.svg'>
+          </a>
+
+          <a href='https://testautomationu.applitools.com/me.html#eligio-fonseca' target='_blank'>
+          <img src='./icons/footer/iconmonstr-applitools.svg'>
           </a>
           
         </figure>

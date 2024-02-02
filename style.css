@@ -83,9 +83,11 @@ footer {
   /* border: 5px solid purple; */
 }
 
-.footerIcons a {
-  margin: 2px;
-  padding: 2px;
+.footerIcons img {
+  margin: 3px;
+  padding: 1px;
+  height: 30px;
+  width: 30px;
 }
 
 body {
