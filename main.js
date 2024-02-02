@@ -1,6 +1,6 @@
 class MyHeader extends HTMLElement {
-    connectedCallback() {
-        this.innerHTML = `
+  connectedCallback() {
+    this.innerHTML = `
         <header>
             <nav id='menu'>
                 <ul>
@@ -13,13 +13,15 @@ class MyHeader extends HTMLElement {
             </nav>
         </header>
         `
-    }
+  }
 }
 customElements.define('my-header', MyHeader)
 
 class MyFooter extends HTMLElement {
-    connectedCallback() {
-        this.innerHTML = `
+  connectedCallback() {
+    this.innerHTML = `
+    <button onclick="topFunction()" id="bttb" title="Back to the Top">Top
+    </button>
         <footer>
         <figure class='footerIcons'>
 
@@ -47,7 +49,7 @@ class MyFooter extends HTMLElement {
             &copy; <span id="copyright-year">2023</span>. All Rights Reserved.
         </footer>
         `
-    }
+  }
 }
 customElements.define('my-footer', MyFooter)
 document.querySelector('#copyright-year').innerText = new Date().getFullYear();
@@ -56,7 +58,7 @@ document.querySelector('#copyright-year').innerText = new Date().getFullYear();
 let mybutton = document.getElementById("bttb");
 
 // When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
+window.onscroll = function () { scrollFunction() };
 
 function scrollFunction() {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
