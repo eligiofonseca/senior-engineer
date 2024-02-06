@@ -1,11 +1,11 @@
 * {
     box-sizing: border-box;
     scroll-behavior: smooth;
+    font-family: 'system-ui', fallback-font, 'sans-serif';
 }
 
 :root {
     --background-color: #33456C;
-    font-family: 'system-ui', fallback-font, 'sans-serif';
     background: var(--background-color);
 }
 
