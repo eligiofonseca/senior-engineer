@@ -44,18 +44,20 @@ li a {
 }
 
 .current a {
-    color: red;
+    color: orange;
     font-size: 40px;
 }
 
 h1 {
     font-size: 28px;
     font-weight: 800;
+    color: #E0E0E0;
 }
 
 h2 {
     font-size: 24px;
     font-weight: 600;
+    color: #E0E0E0;
 }
 
 img {
@@ -82,7 +84,7 @@ p {
 
 p::first-letter {
     font-size: 32px;
-    color: red;
+    color: orange !important;
 }
 
 .bikePics {
@@ -119,7 +121,7 @@ p::first-letter {
 }
 
 footer {
-    color: rgb(204, 200, 200);
+    color: #FFFFFF;
     font-size: 12px;
     text-align: center;
     padding: 10px 20px;
