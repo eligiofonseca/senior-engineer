@@ -33,6 +33,18 @@
   src: url('./fonts/Roboto-LightItalic.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'Satisfy';
+  src: url(https://fonts.gstatic.com/s/satisfy/v21/rP2Hp2yn6lkG50LoCZOIHQ.woff2) format('woff2');
+}
+
+/* span {
+  font-family: 'Satisfy', cursive;
+  font-weight: normal;
+  font-size: 20px;
+  padding-top: 60px;
+} */
+
 #logo {
   max-width: 20px;
 }
