@@ -4,7 +4,7 @@
 }
 
 :root {
-    --background-color: #3d5a80;
+    --background-color: #33456C;
     font-family: 'system-ui', fallback-font, 'sans-serif';
     background: var(--background-color);
 }
@@ -75,6 +75,7 @@ img {
 }
 
 p {
+    color: #FFFFFF;
     font-size: 18px;
     position: static;
     display: inline-block;
@@ -84,7 +85,7 @@ p {
 
 p::first-letter {
     font-size: 32px;
-    color: orange !important;
+    color: #FFDE70;
 }
 
 .bikePics {
