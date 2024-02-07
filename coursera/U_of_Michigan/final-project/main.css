@@ -12,6 +12,7 @@
 .offpage {
     position: absolute;
     left: -1000px;
+    color: antiquewhite;
 }
 
 header {
