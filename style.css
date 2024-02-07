@@ -1,3 +1,8 @@
+/* 1 em = 14 pixels or 11pt
+.5 em = 7 pixels or 5pt
+1.5 em = 21 pixels or 16pt
+2 em = 28 pixels or 22pt */
+
 * {
   /* padding: 0;
   border: 0;
@@ -11,6 +16,7 @@
   --background-color: #3d5a80;
   font-family: 'system-ui', fallback-font, 'sans-serif';
   background: var(--background-color);
+  font-size: 12px;
 }
 
 @font-face {
@@ -41,7 +47,7 @@
 /* span {
   font-family: 'Satisfy', cursive;
   font-weight: normal;
-  font-size: 20px;
+  font-size: 1.8rem;
   padding-top: 60px;
 } */
 
@@ -51,7 +57,7 @@
 
 nav ul {
   font-family: 'RobotoLight';
-  font-size: 18px;
+  font-size: 1.5rem;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -89,7 +95,7 @@ nav a:hover {
 footer {
   color: rgb(39, 36, 36);
   font-family: 'RobotoLightItalic';
-  font-size: 12px;
+  font-size: 1rem;
   text-align: center;
   padding-bottom: 5px;
   /* border: 5px solid purple; */
@@ -108,7 +114,7 @@ footer a {
 
 body {
   color: rgb(69, 56, 56);
-  font-size: 16px;
+  font-size: 1.34rem;
   position: relative;
   top: 55px;
 }
@@ -160,9 +166,9 @@ p {
 
 .introP::first-letter {
   color: #ff0000;
-  font-size: 2.1em;
+  font-size: 3.9rem;
   line-height: 1.0;
-  font-size: 42px;
+
 }
 
 time {
@@ -289,7 +295,7 @@ button {
   border: none;
   color: white;
   padding: 7px 16px;
-  font-size: 16px;
+  font-size: 1.4rem;
   border-radius: 8px;
   margin: 5px;
 }
@@ -342,7 +348,7 @@ button:hover {
   /* Some padding */
   border-radius: 10px;
   /* Rounded corners */
-  font-size: 14px;
+  font-size: 1.2rem;
   /* Increase font size */
 }
 
@@ -400,6 +406,6 @@ a[href*='umich'] {} */
 @media (orientation: portrait) and (max-width: 465px) {
   nav ul {
     display: flex;
-    font-size: 14px;
+    font-size: 1.17rem;
   }
 }
