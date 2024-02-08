@@ -1,3 +1,9 @@
+// * IMPORTANT
+// ! DEPRECATED
+// TODO 
+// ? SHOULD THIS
+// @param innerHTML blah
+
 class MyHeader extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
