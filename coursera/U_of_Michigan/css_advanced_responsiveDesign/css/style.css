@@ -44,14 +44,14 @@ div {
 }
 
 /* Mobile View */
-@media (max-width: 771px) {
+@media screen and (max-width: 771px) {
   div {
     width: 100vw;
   }
 }
 
 /* Tablet View */
-@media (min-width: 772px) and (max-width: 997px) {
+@media screen and (min-width: 772px) and (max-width: 997px) {
   div {
     width: 45vw;
   }
@@ -62,7 +62,7 @@ div {
 }
 
 /* Desktop View */
-@media (min-width: 998px) {
+@media screen and (min-width: 998px) {
   div {
     width: 30vw;
   }
