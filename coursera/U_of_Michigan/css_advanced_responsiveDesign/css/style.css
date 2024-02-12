@@ -53,6 +53,7 @@ div {
 /* Tablet View */
 @media screen and (min-width: 772px) and (max-width: 997px) {
   div {
+    display: inline-block;
     width: 45vw;
   }
 
