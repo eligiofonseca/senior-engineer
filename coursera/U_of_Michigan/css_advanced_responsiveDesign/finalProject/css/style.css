@@ -39,7 +39,7 @@ img {
 .grid {
   display: grid;
   grid-template-columns: auto;
-  gap: 10px;
+  gap: 10px; /* grid-gap in css3 is deprecated */
 }
 
 @media screen and (min-width: 772px) {
