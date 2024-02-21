@@ -51,7 +51,7 @@ img {
     border-radius: 50%;
   }
 
-  .lastImage {
+  figure:nth-last-child(1) {
     grid-column: span 2;
   }
 }
@@ -61,7 +61,7 @@ img {
     border-radius: 0%;
   }
 
-  .thirdImage {
+  figure:nth-child(3n) {
     grid-column: span 2;
   }
 }
